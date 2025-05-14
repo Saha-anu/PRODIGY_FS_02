@@ -1,0 +1,127 @@
+/* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f6f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h2, h3 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #3b82f6;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2563eb;
+}
+
+/* Input Fields */
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #3b82f6;
+}
+
+/* Form Container */
+form {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Button Group */
+button[type='button'] {
+  width: 48%;
+  margin: 10px 1%;
+}
+
+button[type='submit'] {
+  width: 100%;
+  background-color: #4CAF50;
+  font-size: 18px;
+}
+
+button[type='submit']:hover {
+  background-color: #45a049;
+}
+
+/* Layout for List of Employees */
+.employee-list {
+  max-width: 900px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.employee-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 10px 0;
+}
+
+.employee-item:last-child {
+  border-bottom: none;
+}
+
+.employee-name {
+  font-size: 16px;
+  color: #333;
+}
+
+.employee-actions button {
+  margin-left: 10px;
+}
+
+form input[type='text'],
+form input[type='email'] {
+  width: calc(50% - 12px);
+  display: inline-block;
+}
+
+form input[type='text'] {
+  margin-right: 20px;
+}
+
+form button {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
